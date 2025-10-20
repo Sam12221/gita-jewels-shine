@@ -1,4 +1,4 @@
-import { MapPin, Phone, Clock } from "lucide-react";
+import { MapPin, Phone } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -44,24 +44,12 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="flex items-start space-x-4 p-6 bg-card rounded-lg shadow-md hover:shadow-[var(--shadow-elegant)] transition-all duration-300">
-              <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                <Clock className="w-6 h-6 text-primary" />
-              </div>
-              <div>
-                <h3 className="font-serif text-xl font-bold text-foreground mb-2">Business Hours</h3>
-                <p className="text-muted-foreground">
-                  Monday - Saturday: 10:00 AM - 8:00 PM<br />
-                  Sunday: 10:00 AM - 6:00 PM
-                </p>
-              </div>
-            </div>
           </div>
 
           <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <div className="bg-card rounded-lg shadow-lg overflow-hidden h-full">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.0846274856934!2d88.41820631495657!3d22.666665785118806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89e5e5e5e5e5f%3A0x5e5e5e5e5e5e5e5e!2sJagatdal%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3682.5093832841657!2d88.41668467537327!3d22.655072279433796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDM5JzE4LjMiTiA4OMKwMjUnMDguOCJF!5e0!3m2!1sen!2sin!4v1734706954332!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: '400px' }}

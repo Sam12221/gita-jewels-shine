@@ -15,13 +15,13 @@ const Contact = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-12 max-w-5xl mx-auto">
-          <div className="space-y-8 animate-fade-in-up">
-            <div className="flex items-start space-x-4 p-6 bg-card rounded-lg shadow-md hover:shadow-[var(--shadow-elegant)] transition-all duration-300">
-              <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                <MapPin className="w-6 h-6 text-primary" />
+          <div className="space-y-8">
+            <div className="flex items-start space-x-4 p-6 bg-card rounded-lg shadow-md hover:shadow-[var(--shadow-elegant)] hover:scale-105 transition-all duration-500 animate-fade-in group" style={{ animationDelay: '0.1s' }}>
+              <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary/20 transition-all duration-300 group-hover:scale-110">
+                <MapPin className="w-6 h-6 text-primary group-hover:animate-pulse" />
               </div>
               <div>
-                <h3 className="font-serif text-xl font-bold text-foreground mb-2">Our Address</h3>
+                <h3 className="font-serif text-xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors duration-300">Our Address</h3>
                 <p className="text-muted-foreground">
                   14/2/1 West Ghosh Para Road<br />
                   Jagatdal
@@ -29,15 +29,15 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="flex items-start space-x-4 p-6 bg-card rounded-lg shadow-md hover:shadow-[var(--shadow-elegant)] transition-all duration-300">
-              <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                <Phone className="w-6 h-6 text-primary" />
+            <div className="flex items-start space-x-4 p-6 bg-card rounded-lg shadow-md hover:shadow-[var(--shadow-elegant)] hover:scale-105 transition-all duration-500 animate-fade-in group" style={{ animationDelay: '0.3s' }}>
+              <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary/20 transition-all duration-300 group-hover:scale-110">
+                <Phone className="w-6 h-6 text-primary group-hover:animate-pulse" />
               </div>
               <div>
-                <h3 className="font-serif text-xl font-bold text-foreground mb-2">Contact Number</h3>
+                <h3 className="font-serif text-xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors duration-300">Contact Number</h3>
                 <a 
                   href="tel:+917278232514" 
-                  className="text-muted-foreground hover:text-primary transition-colors duration-300"
+                  className="text-muted-foreground hover:text-primary transition-colors duration-300 text-lg font-medium"
                 >
                   +91 7278232514
                 </a>
